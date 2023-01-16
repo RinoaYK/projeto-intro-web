@@ -1029,7 +1029,7 @@ footer {
 
 /* --Responsividade-- */
 
-@media screen and (max-width: 2700px) and (min-width: 1600px) {
+@media screen and (max-width: 9000px) and (min-width: 3340px) {
   main {
     padding: 5em;
     gap: 5em;
@@ -1072,91 +1072,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 1600px) and (min-width: 960px) {
-  main {
-    padding: 4em;
-    gap: 2em;
-  }
-  footer {
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-
-  #aries > img {
-    width: 90%;
-  }
-  #taurus > img {
-    width: 90%;
-  }
-  #gemini > img {
-    width: 90%;
-  }
-  #cancer > img {
-    width: 90%;
-  }
-  #leo > img {
-    width: 90%;
-  }
-  #virgo > img {
-    width: 90%;
-  }
-  #libra > img {
-    width: 90%;
-  }
-  #scorpio > img {
-    width: 90%;
-  }
-  #sagittarius > img {
-    width: 90%;
-  }
-  #capricorn > img {
-    width: 90%;
-  }
-  #aquarius > img {
-    width: 90%;
-  }
-  #pisces > img {
-    width: 90%;
-  }
-  #ariesDisapear {
-    margin-bottom: 4em;
-  }
-  #taurusDisapear {
-    margin-bottom: 4em;
-  }
-  #geminiDisapear {
-    margin-bottom: 4em;
-  }
-  #cancerDisapear {
-    margin-bottom: 4em;
-  }
-  #leoDisapear {
-    margin-bottom: 4em;
-  }
-  #virgoDisapear {
-    margin-bottom: 4em;
-  }
-  #libraDisapear {
-    margin-bottom: 4em;
-  }
-  #scorpioDisapear {
-    margin-bottom: 4em;
-  }
-  #sagittariusDisapear {
-    margin-bottom: 4em;
-  }
-  #capricornDisapear {
-    margin-bottom: 4em;
-  }
-  #aquariusDisapear {
-    margin-bottom: 4em;
-  }
-  #piscesDisapear {
-    margin-bottom: 4em;
-  }
-}
-
-@media screen and (max-width: 960px) and (min-width: 850px) {
+@media screen and (max-width: 1600px) and (min-width: 850px) {
   main {
     padding: 2em;
     gap: 1em;
@@ -1239,7 +1155,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 850px) and (min-width: 650px) {
+@media screen and (max-width: 850px) and (min-width: 770px) {
   header {
     height: 6em;
   }
@@ -1357,7 +1273,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 650px) and (min-width: 550px) {
+@media screen and (max-width: 770px) and (min-width: 600px) {
   header {
     height: 6em;
   }
@@ -1385,31 +1301,31 @@ footer {
     width: 70%;
   }
   #cancer > img {
-    width: 75%;
+    width: 70%;
   }
   #leo > img {
-    width: 75%;
+    width: 70%;
   }
   #virgo > img {
-    width: 75%;
+    width: 70%;
   }
   #libra > img {
-    width: 75%;
+    width: 70%;
   }
   #scorpio > img {
-    width: 75%;
+    width: 70%;
   }
   #sagittarius > img {
-    width: 75%;
+    width: 70%;
   }
   #capricorn > img {
-    width: 75%;
+    width: 70%;
   }
   #aquarius > img {
-    width: 75%;
+    width: 70%;
   }
   #pisces > img {
-    width: 75%;
+    width: 70%;
   }
 
   #ariesDisapear {
@@ -1545,173 +1461,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 550px) and (min-width: 480px) {
-  header {
-    height: 6em;
-  }
-  h1 {
-    font-size: 150%;
-  }
-  #divBusca {
-    width: 250px;
-  }
-  #busca-input {
-    width: 200px;
-  }
-  #lupa {
-    height: 20px;
-  }
-  main {
-    gap: 1em;
-  }
-  footer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-top: -1px;
-    height: 150px;
-    padding-left: 2em;
-    padding-right: 2em;
-    font-size: 110%;
-  }
-  #rinoayk {
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #ariesDisapear {
-    margin-bottom: 1em;
-    font-size: 80%;
-    padding: 1em;
-  }
-
-  #taurusDisapear {
-    margin-bottom: 1em;
-    font-size: 80%;
-    padding: 1em;
-  }
-
-  #geminiDisapear {
-    margin-bottom: 1em;
-    font-size: 80%;
-    padding: 1em;
-  }
-
-  #cancerDisapear {
-    margin-bottom: 1em;
-    font-size: 80%;
-    padding: 1em;
-  }
-
-  #leoDisapear {
-    margin-bottom: 1em;
-    font-size: 80%;
-    padding: 1em;
-  }
-
-  #virgoDisapear {
-    margin-bottom: 1em;
-    font-size: 80%;
-    padding: 1em;
-  }
-
-  #libraDisapear {
-    margin-bottom: 1em;
-    font-size: 80%;
-    padding: 1em;
-  }
-
-  #scorpioDisapear {
-    margin-bottom: 1em;
-    font-size: 80%;
-    padding: 1em;
-  }
-
-  #sagittariusDisapear {
-    margin-bottom: 1em;
-    font-size: 80%;
-    padding: 1em;
-  }
-
-  #capricornDisapear {
-    margin-bottom: 1em;
-    font-size: 80%;
-    padding: 1em;
-  }
-
-  #aquariusDisapear {
-    margin-bottom: 1em;
-    font-size: 80%;
-    padding: 1em;
-  }
-
-  #piscesDisapear {
-    margin-bottom: 1em;
-    font-size: 80%;
-    padding: 1em;
-  }
-
-  #imagemAries {
-    margin-top: -10em;
-    width: 30%;
-  }
-
-  #imagemTaurus {
-    margin-top: -10em;
-    width: 30%;
-  }
-  #imagemGemini {
-    margin-top: -10em;
-    width: 30%;
-  }
-
-  #imagemCancer {
-    margin-top: -10em;
-    width: 30%;
-  }
-
-  #imagemLeo {
-    margin-top: -10em;
-    width: 30%;
-  }
-
-  #imagemVirgo {
-    margin-top: -10em;
-    width: 30%;
-  }
-
-  #imagemLibra {
-    margin-top: -10em;
-    width: 30%;
-  }
-
-  #imagemScorpio {
-    margin-top: -10em;
-    width: 30%;
-  }
-
-  #imagemSagittarius {
-    margin-top: -10em;
-    width: 30%;
-  }
-  #imagemCapricorn {
-    margin-top: -10em;
-    width: 30%;
-  }
-  #imagemAquarius {
-    margin-top: -10em;
-    width: 30%;
-  }
-
-  #imagemPisces {
-    margin-top: -10em;
-    width: 30%;
-  }
-}
-
-@media screen and (max-width: 480px) and (min-width: 370px) {
+@media screen and (max-width: 600px) and (min-width: 565px) {
   header {
     height: 6em;
   }
@@ -1749,6 +1499,7 @@ footer {
     justify-content: center;
   }
 
+
   #ariesDisapear {
     width: 80vw;
     margin-bottom: 1em;
@@ -1879,7 +1630,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 370px) and (min-width: 250px) {
+@media screen and (max-width: 565px) and (min-width: 250px) {
   header {
     height: 6em;
   }
