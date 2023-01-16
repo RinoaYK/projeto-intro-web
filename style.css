@@ -12,10 +12,8 @@
   height: 100vh;
 
   background-image: url(./assets/background.png), #0f2027; /* fallback for old browsers */
-
   background-image: url(./assets/background.png),
     -webkit-linear-gradient(to bottom, #2c5364, #203a43, #0f2027); /* Chrome 10-25, Safari 5.1-6 */
-
   background-image: url(./assets/background.png),
     linear-gradient(to bottom, #2c5364, #203a43, #0f2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-attachment: fixed;
@@ -92,10 +90,8 @@ main {
   align-items: center;
 
   background-image: url(./assets/background.png), #0f2027; /* fallback for old browsers */
-
   background-image: url(./assets/background.png),
     -webkit-linear-gradient(to bottom, #2c5364, #203a43, #0f2027); /* Chrome 10-25, Safari 5.1-6 */
-
   background-image: url(./assets/background.png),
     linear-gradient(to bottom, #2c5364, #203a43, #0f2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-attachment: fixed;
@@ -130,9 +126,6 @@ footer {
   font-size: x-large;
   padding: 0 1vw 0 1vw;
   background-image: url(./assets/footer-bg.png);
-
-  /* background-color: rgba(0, 0, 0, 0.348); */
-  /* background-color: rgb(2, 17, 32); */
 
   background-size: cover;
   width: 100vw;
@@ -1928,73 +1921,73 @@ footer {
     margin-top: 1em;
     width: 80vw;
     margin-bottom: 2em;
-    font-size: 85%;
+    font-size: 80%;
   }
 
   #taurusDisapear {
     width: 80vw;
     margin-bottom: 2em;
-    font-size: 85%;
+    font-size: 80%;
   }
 
   #geminiDisapear {
     width: 80vw;
     margin-bottom: 2em;
-    font-size: 85%;
+    font-size: 80%;
   }
 
   #cancerDisapear {
     width: 80vw;
     margin-bottom: 2em;
-    font-size: 85%;
+    font-size: 80%;
   }
 
   #leoDisapear {
     width: 80vw;
     margin-bottom: 2em;
-    font-size: 85%;
+    font-size: 80%;
   }
 
   #virgoDisapear {
     width: 80vw;
     margin-bottom: 2em;
-    font-size: 85%;
+    font-size: 80%;
   }
 
   #libraDisapear {
     width: 80vw;
     margin-bottom: 2em;
-    font-size: 85%;
+    font-size: 80%;
   }
 
   #scorpioDisapear {
     width: 80vw;
     margin-bottom: 2em;
-    font-size: 85%;
+    font-size: 80%;
   }
 
   #sagittariusDisapear {
     width: 80vw;
     margin-bottom: 2em;
-    font-size: 85%;
+    font-size: 80%;
   }
 
   #capricornDisapear {
     width: 80vw;
     margin-bottom: 2em;
-    font-size: 85%;
+    font-size: 80%;
   }
 
   #aquariusDisapear {
     width: 80vw;
     margin-bottom: 2em;
-    font-size: 85%;
+    font-size: 80%;
   }
 
   #piscesDisapear {
     width: 80vw;
     margin-bottom: 2em;
-    font-size: 85%;
+    font-size: 80%;
   }
 
   #imagemAries {
