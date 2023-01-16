@@ -1,6 +1,6 @@
-# Projeto de Introdução ao desenvolvimento web
+#  - Lidia Yamamura - Projeto de Introdução ao desenvolvimento web
 
-Esse é o projeto de introdução aos fundamentos do desenvolvimento Web. Aqui, vamos praticar a estrutura do que faremos pelo curso todo. O objetivo é construir uma página estilizada, e com **lista** e **busca** utilizando manipulação de DOM, praticando o conteúdo do módulo com JS:
+Esse é o projeto de introdução aos fundamentos do desenvolvimento Web. Foi feito uma **lista** e **busca** utilizando manipulação de DOM, praticando o conteúdo do módulo com JS:
 
 - Variáveis
 - Operadores
@@ -15,11 +15,12 @@ Esse é o projeto de introdução aos fundamentos do desenvolvimento Web. Aqui, 
 - Flex e Grid
 - DOM e responsividade
 
-## Enunciado
+## Signos do Zodíaco :star2:
 
-A página consiste em um HTML, ligado a um ou mais arquivos CSS, e um ou mais arquivos JS (recomendamos apenas um de cada, no entanto). O objetivo é conseguir criar uma página estática, depois estilizada, e por fim, dinâmica. A página vai catalogar (ou listar) itens que você escolher, e deve possuir um sistema simples de busca, que recebe um texto, e procura por nomes/títulos que correspondam a este texto.
-
-
+A página consiste em um HTML, ligado a um arquivos CSS e um arquivo JS. 
+Foi criada uma página estática, depois estilizada, e por fim, dinâmica e responsiva. A página contém ícones que representam os signos do zodíaco que você pode clicar em cima para ter mais informações.
+Tem um sistema de busca, que recebe um texto pode ser escrito em letra MAIÚSCULA ou minúscula, ou os dois tIPoS.
+Procura por nomes/títulos, modalidade, elemento ou palavra-chave do signo que correspondam a este texto.
 
 [Exemplo](https://user-images.githubusercontent.com/11279432/180304632-97d6705d-100c-4272-8255-8aae19813700.mov)
 
