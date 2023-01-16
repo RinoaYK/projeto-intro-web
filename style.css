@@ -2056,3 +2056,172 @@ footer {
     display: none;
   }
 }
+
+@media screen and (max-device-width: 1080px) and (min-device-width: 250px) {
+  header {
+    height: 6em;
+  }
+  h1 {
+    font-size: 150%;
+  }
+  #divBusca {
+    width: 200px;
+    display: relative;
+  }
+  #lupa {
+    display: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: -50px;
+  }
+
+  main {
+    gap: 1em;
+    margin: 0em;
+    padding: 1em;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    padding: 1em;
+    margin-top: -1em;
+    font-size: 99%;
+  }
+  #rinoayk {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #ariesDisapear {
+    width: 80vw;
+    margin-bottom: 1em;
+    font-size: 70%;
+    padding: 1em;
+  }
+
+  #taurusDisapear {
+    width: 80vw;
+    margin-bottom: 1em;
+    font-size: 70%;
+    padding: 1em;
+  }
+
+  #geminiDisapear {
+    width: 80vw;
+    margin-bottom: 1em;
+    font-size: 70%;
+    padding: 1em;
+  }
+
+  #cancerDisapear {
+    width: 80vw;
+    margin-bottom: 1em;
+    font-size: 70%;
+    padding: 1em;
+  }
+
+  #leoDisapear {
+    width: 80vw;
+    margin-bottom: 1em;
+    font-size: 70%;
+    padding: 1em;
+  }
+
+  #virgoDisapear {
+    width: 80vw;
+    margin-bottom: 1em;
+    font-size: 70%;
+    padding: 1em;
+  }
+
+  #libraDisapear {
+    width: 80vw;
+    margin-bottom: 1em;
+    font-size: 70%;
+    padding: 1em;
+  }
+
+  #scorpioDisapear {
+    width: 80vw;
+    margin-bottom: 1em;
+    font-size: 70%;
+    padding: 1em;
+  }
+
+  #sagittariusDisapear {
+    width: 80vw;
+    margin-bottom: 1em;
+    font-size: 70%;
+    padding: 1em;
+  }
+
+  #capricornDisapear {
+    width: 80vw;
+    margin-bottom: 1em;
+    font-size: 70%;
+    padding: 1em;
+  }
+
+  #aquariusDisapear {
+    width: 80vw;
+    margin-bottom: 1em;
+    font-size: 70%;
+    padding: 1em;
+  }
+
+  #piscesDisapear {
+    width: 80vw;
+    margin-bottom: 1em;
+    font-size: 70%;
+    padding: 1em;
+  }
+
+  #imagemAries {
+    display: none;
+  }
+
+  #imagemTaurus {
+    display: none;
+  }
+  #imagemGemini {
+    display: none;
+  }
+
+  #imagemCancer {
+    display: none;
+  }
+
+  #imagemLeo {
+    display: none;
+  }
+
+  #imagemVirgo {
+    display: none;
+  }
+
+  #imagemLibra {
+    display: none;
+  }
+
+  #imagemScorpio {
+    display: none;
+  }
+
+  #imagemSagittarius {
+    display: none;
+  }
+  #imagemCapricorn {
+    display: none;
+  }
+  #imagemAquarius {
+    display: none;
+  }
+
+  #imagemPisces {
+    display: none;
+  }
+}
