@@ -43,3 +43,6 @@ Procura por nomes/títulos, modalidade, elemento ou palavra-chave do signo que c
 - [ ]  Clique do botão executa busca entre os itens ✔
 - [ ]  Relatório impresso no console com as informações de cada item ✔
 - [ ]  Nome/título dos itens em letras maiúsculas ✔
+- [ ]  Verificação de valores booleanos true impressa no console ✔
+- [ ]  Utilização de Grid ou Flex para estilizar ✔
+- [ ]  Atenção ao padrão de estilização enviado ✔
