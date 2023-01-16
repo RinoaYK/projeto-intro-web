@@ -1029,7 +1029,7 @@ footer {
 
 /* --Responsividade-- */
 
-@media screen and (max-device-width: 2700px) and (min-device-width: 1600px) {
+@media screen and (max-width: 2700px) and (min-width: 1600px) {
   main {
     padding: 5em;
     gap: 5em;
@@ -1072,7 +1072,7 @@ footer {
   }
 }
 
-@media screen and (max-device-width: 1600px) and (min-device-width: 960px) {
+@media screen and (max-width: 1600px) and (min-width: 960px) {
   main {
     padding: 4em;
     gap: 2em;
@@ -1156,7 +1156,7 @@ footer {
   }
 }
 
-@media screen and (max-device-width: 960px) and (min-device-width: 850px) {
+@media screen and (max-width: 960px) and (min-width: 850px) {
   main {
     padding: 2em;
     gap: 1em;
@@ -1239,7 +1239,7 @@ footer {
   }
 }
 
-@media screen and (max-device-width: 850px) and (min-device-width: 650px) {
+@media screen and (max-width: 850px) and (min-width: 650px) {
   header {
     height: 6em;
   }
@@ -1357,7 +1357,7 @@ footer {
   }
 }
 
-@media screen and (max-device-width: 650px) and (min-device-width: 550px) {
+@media screen and (max-width: 650px) and (min-width: 550px) {
   header {
     height: 6em;
   }
@@ -1545,7 +1545,7 @@ footer {
   }
 }
 
-@media screen and (max-device-width: 550px) and (min-device-width: 480px) {
+@media screen and (max-width: 550px) and (min-width: 480px) {
   header {
     height: 6em;
   }
@@ -1711,7 +1711,7 @@ footer {
   }
 }
 
-@media screen and (max-device-width: 480px) and (min-device-width: 370px) {
+@media screen and (max-width: 480px) and (min-width: 370px) {
   header {
     height: 6em;
   }
@@ -1879,7 +1879,7 @@ footer {
   }
 }
 
-@media screen and (max-device-width: 370px) and (min-device-width: 250px) {
+@media screen and (max-width: 370px) and (min-width: 250px) {
   header {
     height: 6em;
   }

@@ -353,7 +353,7 @@ const verificaHide = () => {
 
   if (scorpio.classList.contains("hide")) {
     scorpioDisapear.classList.add("hideScorpio");
-    scorpioImage.classList.remove("hidesSorpio");
+    scorpioImage.classList.remove("hideScorpio");
   }
 
   if (sagittarius.classList.contains("hide")) {
