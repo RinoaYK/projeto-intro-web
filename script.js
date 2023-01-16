@@ -384,11 +384,16 @@ button.addEventListener("click", function (event) {
 });
 
 //função para buscar se apertar "enter".
-input.addEventListener("keydown", function (event) {
+input.addEventListener("keypress", function (event) {
+  // console.log(event)
   if (event.code === "Enter") {
     buscar(event);
     verificaHide();
-  }
+  }  
+  if (event.code === "NumpadEnter") {
+    buscar(event);
+    verificaHide();
+  }    
 });
 
 //função para buscar os itens.
