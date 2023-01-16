@@ -1,0 +1,1904 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#conteudo {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.2fr 9fr 0.7fr;
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url(./assets/background.png), #0f2027; /* fallback for old browsers */
+
+  background-image: url(./assets/background.png),
+    -webkit-linear-gradient(to bottom, #2c5364, #203a43, #0f2027); /* Chrome 10-25, Safari 5.1-6 */
+
+  background-image: url(./assets/background.png),
+    linear-gradient(to bottom, #2c5364, #203a43, #0f2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2vh;
+  padding: 2vh;
+
+  align-items: center;
+  color: white;
+
+  letter-spacing: 4px;
+  font-size: x-large;
+  text-align: center;
+  font-family: "Nova Cut", cursive;
+  text-shadow: rgba(255, 255, 255, 0.958) 0px 0px 15px;
+}
+header > a {
+  color: white;
+  text-decoration: none;
+}
+
+header > a:hover {
+  color: white;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255) 0px 0px 25px;
+}
+
+#divBusca {  
+  background-color: #2f4f4f;
+  border: solid 1px black;
+  border-radius: 15px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#busca-input {
+  float: left;
+  background-color: transparent;
+  padding-left: 5px;
+  font-style: italic;
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: 260px;
+  color: white;
+  margin-left: 5px;
+}
+
+#lupa {
+  margin-right: 10px;
+  margin-top: 4px;
+  height: 22px;
+  cursor: pointer;
+}
+
+/* -- main --*/
+
+main {
+  display: flex;
+  padding: 5em;
+  gap: 2em;
+  width: 100vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url(./assets/background.png), #0f2027; /* fallback for old browsers */
+
+  background-image: url(./assets/background.png),
+    -webkit-linear-gradient(to bottom, #2c5364, #203a43, #0f2027); /* Chrome 10-25, Safari 5.1-6 */
+
+  background-image: url(./assets/background.png),
+    linear-gradient(to bottom, #2c5364, #203a43, #0f2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  grid-column: span 2;
+
+  grid-row: span 3;
+  margin-left: 1.5em;
+  margin-top: -2em;
+}
+
+#data {
+  grid-column: 2;
+  grid-row: 2;
+  margin-top: -6em;
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
+}
+
+/* -- Footer --*/
+footer {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Kalam", cursive;
+  font-size: x-large;
+  padding: 0 1vw 0 1vw;
+  background-image: url(./assets/footer-bg.png);
+  background-size: cover;
+  width: 100vw;
+}
+
+.labenu {
+  font-family: "Montserrat", sans-serif;
+  color: rgb(254, 126, 1);
+  display: flex;
+  align-items: center;
+}
+
+#iconeLabenu {
+  margin-top: 10px;
+  margin-left: -10px;
+  width: 50px;
+}
+
+.pLabenuHide {
+  display: none;
+}
+#rinoayk {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+#rinoayk > a {
+  margin-top: -10px;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  color: white;
+  text-decoration: none;
+}
+#rinoayk > a > img {
+  height: 30px;
+}
+
+#rinoayk > a:hover {
+  color: rgb(255, 25, 125);
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+.titulo {
+  display: "";
+}
+
+/* -- Áries --*/
+#aries > img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+  border: 2px solid rgb(211, 39, 69);
+  box-shadow: 0px 0px 50px 10px rgb(211, 39, 69);
+  background-color: rgba(211, 39, 68, 0.05);
+}
+#imagemAries {
+  border-radius: 50%;
+  padding: 10px;
+  border: 2px solid rgb(211, 39, 69);
+  box-shadow: 0px 0px 20px 5px rgb(211, 39, 69);
+  background-color: rgba(211, 39, 68, 0.05);
+}
+
+#ariesSymbol {
+  box-shadow: 0px 0px 10px 5px rgb(211, 39, 69);
+  border-radius: 100%;
+
+  height: 5em;
+  width: 5em;
+  padding: 0.6em;
+}
+
+.asideAries {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 4fr;
+
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(211, 39, 69);
+
+  border-radius: 1em;
+  height: 250px;
+  width: 380px;
+  background-color: #2f4f4f78;
+  color: white;
+  padding: 1em;
+  align-items: center;
+  gap: 1em;
+}
+
+.h1Aries {
+  color: rgb(211, 39, 69);
+  margin-top: -1em;
+  grid-row: 1;
+  grid-column: 2;
+  font-family: "Nova Cut", cursive;
+}
+
+.liAries {
+  color: rgb(211, 39, 69);
+}
+
+.aries {
+  cursor: pointer;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.hideAries {
+  display: none;
+}
+
+/* -- Touro --*/
+#taurus > img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 50px 10px rgb(216, 140, 0);
+
+  border: 2px solid rgb(216, 140, 0);
+  background-color: rgba(216, 140, 0, 0.05);
+}
+
+#imagemTaurus {
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(216, 140, 0);
+
+  border: 2px solid rgb(216, 140, 0);
+  background-color: rgba(216, 140, 0, 0.05);
+}
+
+#taurusSymbol {
+  box-shadow: 0px 0px 10px 5px rgb(189, 251, 3);
+  border-radius: 100%;
+
+  height: 5em;
+  width: 5em;
+  padding: 0.6em;
+}
+
+.asideTaurus {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 4fr;
+
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(216, 140, 0);
+
+  border-radius: 1em;
+  height: 250px;
+  width: 380px;
+  background-color: #2f4f4f78;
+  color: white;
+  padding: 1em;
+  align-items: center;
+  gap: 1em;
+}
+
+.h1Taurus {
+  color: rgb(216, 140, 0);
+  margin-top: -1em;
+  grid-row: 1;
+  grid-column: 2;
+  font-family: "Nova Cut", cursive;
+}
+
+.liTaurus {
+  color: rgb(216, 140, 0);
+}
+
+.taurus {
+  cursor: pointer;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.hideTaurus {
+  display: none;
+}
+
+/* -- Gêmeos --*/
+#gemini > img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 50px 10px rgb(101, 130, 119);
+
+  border: 2px solid rgb(101, 130, 119);
+  background-color: rgba(101, 130, 119, 0.05);
+}
+
+#imagemGemini {
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(101, 130, 119);
+
+  border: 2px solid rgb(101, 130, 119);
+  background-color: rgba(101, 130, 119, 0.05);
+}
+
+#geminiSymbol {
+  box-shadow: 0px 0px 10px 5px rgb(186, 167, 195);
+  border-radius: 100%;
+
+  height: 5em;
+  width: 5em;
+  padding: 0.6em;
+}
+
+.asideGemini {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 4fr;
+
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(101, 130, 119);
+
+  border-radius: 1em;
+  height: 250px;
+  width: 390px;
+  background-color: #2f4f4f78;
+  color: white;
+  padding: 1em;
+  align-items: center;
+  gap: 1em;
+}
+
+.h1Gemini {
+  color: rgb(186, 167, 195);
+  margin-top: -1em;
+  grid-row: 1;
+  grid-column: 2;
+  font-family: "Nova Cut", cursive;
+}
+
+.liGemini {
+  color: rgb(186, 167, 195);
+  margin-top: 0.2em;
+}
+
+.gemini {
+  cursor: pointer;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.hideGemini {
+  display: none;
+}
+
+/* -- Cancer --*/
+#cancer > img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 50px 10px rgb(81, 188, 255);
+
+  border: 2px solid rgb(81, 188, 255);
+  background-color: rgba(81, 188, 255, 0.05);
+}
+
+#imagemCancer {
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(81, 188, 255);
+
+  border: 2px solid rgb(81, 188, 255);
+  background-color: rgba(81, 188, 255, 0.05);
+}
+
+#cancerSymbol {
+  box-shadow: 0px 0px 10px 5px rgb(81, 188, 255);
+  border-radius: 100%;
+
+  height: 5em;
+  width: 5em;
+  padding: 0.6em;
+}
+
+.asideCancer {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 4fr;
+
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(81, 188, 255);
+
+  border-radius: 1em;
+  height: 250px;
+  width: 380px;
+  background-color: #2f4f4f78;
+  color: white;
+  padding: 1em;
+  align-items: center;
+  gap: 1em;
+}
+
+.h1Cancer {
+  color: rgb(81, 133, 255);
+  margin-top: -1em;
+  grid-row: 1;
+  grid-column: 2;
+  font-family: "Nova Cut", cursive;
+}
+
+.liCancer {
+  color: rgb(81, 133, 255);
+}
+
+.cancer {
+  cursor: pointer;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.hideCancer {
+  display: none;
+}
+
+/* -- Leão --*/
+#leo > img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 50px 10px rgb(218, 128, 29);
+
+  border: 2px solid rgb(218, 128, 29);
+  background-color: rgba(218, 128, 29, 0.05);
+}
+
+#imagemLeo {
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 5px rgb(218, 128, 29);
+
+  border: 2px solid rgb(218, 128, 29);
+  background-color: rgba(218, 128, 29, 0.05);
+}
+
+#leoSymbol {
+  box-shadow: 0px 0px 20px 5px rgb(252, 223, 164);
+  border-radius: 100%;
+
+  height: 5em;
+  width: 5em;
+  padding: 0.6em;
+}
+
+.asideLeo {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 4fr;
+
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(218, 128, 29);
+
+  border-radius: 1em;
+  height: 250px;
+  width: 390px;
+  background-color: #2f4f4f78;
+  color: white;
+  padding: 1em;
+  align-items: center;
+  gap: 1em;
+}
+
+.h1Leo {
+  color: rgb(250, 77, 5);
+  margin-top: -1em;
+  grid-row: 1;
+  grid-column: 2;
+  font-family: "Nova Cut", cursive;
+}
+
+.liLeo {
+  color: rgb(250, 77, 5);
+}
+
+.leo {
+  cursor: pointer;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.hideLeo {
+  display: none;
+}
+
+/* -- Virgem --*/
+#virgo > img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 50px 10px rgb(221, 159, 164);
+
+  border: 2px solid rgb(221, 159, 164);
+  background-color: rgba(221, 159, 164, 0.05);
+}
+
+#imagemVirgo {
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 5px rgb(221, 159, 164);
+
+  border: 2px solid rgb(221, 159, 164);
+  background-color: rgba(221, 159, 164, 0.05);
+}
+
+#virgoSymbol {
+  box-shadow: 0px 0px 10px 5px rgb(221, 159, 164);
+  border-radius: 100%;
+
+  height: 5em;
+  width: 5em;
+  padding: 0.6em;
+}
+
+.asideVirgo {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 4fr;
+
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(232, 106, 117);
+
+  border-radius: 1em;
+  height: 250px;
+  width: 390px;
+  background-color: #2f4f4f78;
+  color: white;
+  padding: 1em;
+  align-items: center;
+  gap: 1em;
+}
+
+.h1Virgo {
+  color: rgb(232, 106, 117);
+  margin-top: -1em;
+  grid-row: 1;
+  grid-column: 2;
+  font-family: "Nova Cut", cursive;
+}
+
+.liVirgo {
+  color: rgb(232, 106, 117);
+}
+
+.virgo {
+  cursor: pointer;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.hideVirgo {
+  display: none;
+}
+
+/* -- Libra --*/
+#libra > img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 50px 10px rgb(72, 173, 181);
+
+  border: 2px solid rgb(72, 173, 181);
+  background-color: rgba(72, 173, 181, 0.05);
+}
+
+#imagemLibra {
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 5px rgb(72, 173, 181);
+
+  border: 2px solid rgb(72, 173, 181);
+  background-color: rgba(72, 173, 181, 0.05);
+}
+
+#libraSymbol {
+  box-shadow: 0px 0px 10px 5px rgb(85, 119, 240);
+  border-radius: 100%;
+
+  height: 5em;
+  width: 5em;
+  padding: 0.6em;
+}
+
+.asideLibra {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 4fr;
+
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(72, 173, 181);
+
+  border-radius: 1em;
+  height: 250px;
+  width: 380px;
+  background-color: #2f4f4f78;
+  color: white;
+  padding: 1em;
+  align-items: center;
+  gap: 1em;
+}
+
+.h1Libra {
+  color: rgb(150, 172, 255);
+  margin-top: -1em;
+  grid-row: 1;
+  grid-column: 2;
+  font-family: "Nova Cut", cursive;
+}
+
+.liLibra {
+  color: rgb(150, 172, 255);
+}
+
+.libra {
+  cursor: pointer;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.hideLibra {
+  display: none;
+}
+
+/* -- Escorpião --*/
+#scorpio > img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 50px 10px rgb(175, 132, 245);
+
+  border: 2px solid rgb(175, 132, 245);
+  background-color: rgba(175, 132, 245, 0.05);
+}
+
+#imagemScorpio {
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 5px rgb(175, 132, 245);
+
+  border: 2px solid rgb(175, 132, 245);
+  background-color: rgba(175, 132, 245, 0.05);
+}
+
+#scorpioSymbol {
+  box-shadow: 0px 0px 10px 5px rgb(112, 27, 249);
+  border-radius: 100%;
+
+  height: 5em;
+  width: 5em;
+  padding: 0.6em;
+}
+
+.asideScorpio {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 4fr;
+
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(175, 132, 245);
+
+  border-radius: 1em;
+  height: 250px;
+  width: 380px;
+  background-color: #2f4f4f78;
+  color: white;
+  padding: 1em;
+  align-items: center;
+  gap: 1em;
+}
+
+.h1Scorpio {
+  color: rgb(175, 132, 245);
+  margin-top: -1em;
+  grid-row: 1;
+  grid-column: 2;
+  font-family: "Nova Cut", cursive;
+}
+
+.liScorpio {
+  color: rgb(175, 132, 245);
+}
+
+.scorpio {
+  cursor: pointer;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.hideScorpio {
+  display: none;
+}
+
+/* -- Sagitário --*/
+#sagittarius > img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 50px 10px rgb(241, 119, 74);
+
+  border: 2px solid rgb(241, 119, 74);
+  background-color: rgba(241, 119, 74, 0.05);
+}
+
+#imagemSagittarius {
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 10px 5px rgb(241, 119, 74);
+
+  border: 2px solid rgb(241, 119, 74);
+  background-color: rgba(241, 119, 74, 0.05);
+}
+
+#sagittariusSymbol {
+  box-shadow: 0px 0px 10px 5px rgb(241, 119, 74);
+  border-radius: 100%;
+
+  height: 5em;
+  width: 5em;
+  padding: 0.6em;
+}
+
+.asideSagittarius {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 4fr;
+
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(241, 119, 74);
+
+  border-radius: 1em;
+  height: 250px;
+  width: 380px;
+  background-color: #2f4f4f78;
+  color: white;
+  padding: 1em;
+  align-items: center;
+  gap: 1em;
+}
+
+.h1Sagittarius {
+  color: rgb(234, 65, 2);
+  margin-top: -1em;
+  grid-row: 1;
+  grid-column: 2;
+  font-family: "Nova Cut", cursive;
+}
+
+.liSagittarius {
+  color: rgb(234, 65, 2);
+}
+
+.sagittarius {
+  cursor: pointer;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.hideSagittarius {
+  display: none;
+}
+
+/* -- Capricórnio --*/
+#capricorn > img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 50px 10px rgb(181, 131, 60);
+
+  border: 2px solid rgb(181, 131, 60);
+  background-color: rgba(181, 131, 60, 0.05);
+}
+
+#imagemCapricorn {
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(181, 131, 60);
+
+  border: 2px solid rgb(181, 131, 60);
+  background-color: rgba(181, 131, 60, 0.05);
+}
+
+#capricornSymbol {
+  box-shadow: 0px 0px 10px 5px rgb(255, 210, 143);
+  border-radius: 100%;
+
+  height: 5em;
+  width: 5em;
+  padding: 0.6em;
+}
+
+.asideCapricorn {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 4fr;
+
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(181, 131, 60);
+
+  border-radius: 1em;
+  height: 250px;
+  width: 380px;
+  background-color: #2f4f4f78;
+  color: white;
+  padding: 1em;
+  align-items: center;
+  gap: 1em;
+}
+
+.h1Capricorn {
+  color: rgb(231, 234, 98);
+  margin-top: -1em;
+  grid-row: 1;
+  grid-column: 2;
+  font-family: "Nova Cut", cursive;
+}
+
+.liCapricorn {
+  color: rgb(231, 234, 98);
+}
+
+.capricorn {
+  cursor: pointer;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.hideCapricorn {
+  display: none;
+}
+
+/* -- Aquário --*/
+#aquarius > img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 50px 10px rgb(153, 255, 102);
+
+  border: 2px solid rgb(30, 188, 255);
+  background-color: rgba(30, 188, 255, 0.05);
+}
+
+#imagemAquarius {
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(153, 255, 102);
+
+  border: 2px solid rgb(30, 188, 255);
+  background-color: rgba(30, 188, 255, 0.05);
+}
+
+#aquariusSymbol {
+  box-shadow: 0px 0px 10px 5px rgb(111, 212, 255);
+  border-radius: 100%;
+
+  height: 5em;
+  width: 5em;
+  padding: 0.6em;
+}
+
+.asideAquarius {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 4fr;
+
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(153, 255, 102);
+
+  border-radius: 1em;
+  height: 250px;
+  width: 400px;
+  background-color: #2f4f4f78;
+  color: white;
+  padding: 1em;
+  align-items: center;
+  gap: 1em;
+}
+
+.h1Aquarius {
+  color: rgb(30, 188, 255);
+  margin-top: -1em;
+  grid-row: 1;
+  grid-column: 2;
+  font-family: "Nova Cut", cursive;
+}
+
+.liAquarius {
+  color: rgb(30, 188, 255);
+}
+
+.aquarius {
+  cursor: pointer;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.hideAquarius {
+  display: none;
+}
+
+/* -- Peixes --*/
+#pisces > img:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 50px 10px rgb(33, 118, 255);
+
+  border: 2px solid rgb(33, 118, 255);
+  background-color: rgba(33, 118, 255, 0.05);
+}
+
+#imagemPisces {
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(33, 118, 255);
+
+  border: 2px solid rgb(33, 118, 255);
+  background-color: rgba(33, 118, 255, 0.05);
+}
+
+#piscesSymbol {
+  box-shadow: 0px 0px 10px 5px rgb(119, 254, 250);
+  border-radius: 100%;
+
+  height: 5em;
+  width: 5em;
+  padding: 0.6em;
+}
+
+.asidePisces {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 4fr;
+
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 20px 5px rgb(33, 118, 255);
+
+  border-radius: 1em;
+  height: 250px;
+  width: 390px;
+  background-color: #2f4f4f78;
+  color: white;
+  padding: 1em;
+  align-items: center;
+  gap: 1em;
+}
+
+.h1Pisces {
+  color: rgb(45, 250, 243);
+  margin-top: -1em;
+  grid-row: 1;
+  grid-column: 2;
+  font-family: "Nova Cut", cursive;
+}
+
+.liPisces {
+  color: rgb(45, 250, 243);
+}
+
+.pisces {
+  cursor: pointer;
+  display: flex;
+  gap: 2em;
+  align-items: center;
+}
+
+.hidePisces {
+  display: none;
+}
+
+/* --Responsividade-- */
+
+@media screen and (max-width: 2700px) and (min-width: 1600px) {
+  main {
+    padding: 5em;
+    gap: 5em;
+  }
+  #aries > img {
+    width: 200px;
+  }
+  #taurus > img {
+    width: 200px;
+  }
+  #gemini > img {
+    width: 200px;
+  }
+  #cancer > img {
+    width: 200px;
+  }
+  #leo > img {
+    width: 200px;
+  }
+  #virgo > img {
+    width: 200px;
+  }
+  #libra > img {
+    width: 200px;
+  }
+  #scorpio > img {
+    width: 200px;
+  }
+  #sagittarius > img {
+    width: 200px;
+  }
+  #capricorn > img {
+    width: 200px;
+  }
+  #aquarius > img {
+    width: 200px;
+  }
+  #pisces > img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 960px) {
+  main {
+    padding: 4em;
+    gap: 2em;
+  }
+  footer {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  #aries > img {
+    width: 90%;
+  }
+  #taurus > img {
+    width: 90%;
+  }
+  #gemini > img {
+    width: 90%;
+  }
+  #cancer > img {
+    width: 90%;
+  }
+  #leo > img {
+    width: 90%;
+  }
+  #virgo > img {
+    width: 90%;
+  }
+  #libra > img {
+    width: 90%;
+  }
+  #scorpio > img {
+    width: 90%;
+  }
+  #sagittarius > img {
+    width: 90%;
+  }
+  #capricorn > img {
+    width: 90%;
+  }
+  #aquarius > img {
+    width: 90%;
+  }
+  #pisces > img {
+    width: 90%;
+  }
+  #ariesDisapear {
+    margin-bottom: 4em;
+  }
+  #taurusDisapear {
+    margin-bottom: 4em;
+  }
+  #geminiDisapear {
+    margin-bottom: 4em;
+  }
+  #cancerDisapear {
+    margin-bottom: 4em;
+  }
+  #leoDisapear {
+    margin-bottom: 4em;
+  }
+  #virgoDisapear {
+    margin-bottom: 4em;
+  }
+  #libraDisapear {
+    margin-bottom: 4em;
+  }
+  #scorpioDisapear {
+    margin-bottom: 4em;
+  }
+  #sagittariusDisapear {
+    margin-bottom: 4em;
+  }
+  #capricornDisapear {
+    margin-bottom: 4em;
+  }
+  #aquariusDisapear {
+    margin-bottom: 4em;
+  }
+  #piscesDisapear {
+    margin-bottom: 4em;
+  }
+}
+
+@media screen and (max-width: 960px) and (min-width: 850px) {
+  main {
+    padding: 2em;
+    gap: 1em;
+  }
+  footer {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  #aries > img {
+    width: 80%;
+  }
+  #taurus > img {
+    width: 80%;
+  }
+  #gemini > img {
+    width: 80%;
+  }
+  #cancer > img {
+    width: 80%;
+  }
+  #leo > img {
+    width: 80%;
+  }
+  #virgo > img {
+    width: 80%;
+  }
+  #libra > img {
+    width: 80%;
+  }
+  #scorpio > img {
+    width: 80%;
+  }
+  #sagittarius > img {
+    width: 80%;
+  }
+  #capricorn > img {
+    width: 80%;
+  }
+  #aquarius > img {
+    width: 80%;
+  }
+  #pisces > img {
+    width: 80%;
+  }
+  #ariesDisapear {
+    margin-bottom: 4em;
+  }
+  #taurusDisapear {
+    margin-bottom: 4em;
+  }
+  #geminiDisapear {
+    margin-bottom: 4em;
+  }
+  #cancerDisapear {
+    margin-bottom: 4em;
+  }
+  #leoDisapear {
+    margin-bottom: 4em;
+  }
+  #virgoDisapear {
+    margin-bottom: 4em;
+  }
+  #libraDisapear {
+    margin-bottom: 4em;
+  }
+  #scorpioDisapear {
+    margin-bottom: 4em;
+  }
+  #sagittariusDisapear {
+    margin-bottom: 4em;
+  }
+  #capricornDisapear {
+    margin-bottom: 4em;
+  }
+  #aquariusDisapear {
+    margin-bottom: 4em;
+  }
+  #piscesDisapear {
+    margin-bottom: 4em;
+  }
+}
+
+@media screen and (max-width: 850px) and (min-width: 650px) {
+  header {
+    height: 6em;
+  }
+  h1 {
+    font-size: 180%;
+  }
+
+  main {
+    padding: 3em;
+    gap: 0em;
+    margin-top: -1em;
+  }
+  footer {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  #aries > img {
+    width: 75%;
+  }
+
+  #taurus > img {
+    width: 75%;
+  }
+
+  #gemini > img {
+    width: 75%;
+  }
+  #cancer > img {
+    width: 75%;
+  }
+  #leo > img {
+    width: 75%;
+  }
+  #virgo > img {
+    width: 75%;
+  }
+  #libra > img {
+    width: 75%;
+  }
+  #scorpio > img {
+    width: 75%;
+  }
+  #sagittarius > img {
+    width: 75%;
+  }
+  #capricorn > img {
+    width: 75%;
+  }
+  #aquarius > img {
+    width: 75%;
+  }
+  #pisces > img {
+    width: 75%;
+  }
+
+  #ariesDisapear {
+    width: 100%;
+    margin-bottom: 4em;
+    font-size: 90%;
+  }
+  #taurusDisapear {
+    width: 100%;
+    margin-bottom: 4em;
+    font-size: 90%;
+  }
+  #geminiDisapear {
+    width: 100%;
+    margin-bottom: 4em;
+    font-size: 90%;
+  }
+  #cancerDisapear {
+    width: 100%;
+    margin-bottom: 4em;
+    font-size: 90%;
+  }
+  #leoDisapear {
+    width: 100%;
+    margin-bottom: 4em;
+    font-size: 90%;
+  }
+  #virgoDisapear {
+    width: 100%;
+    margin-bottom: 4em;
+    font-size: 90%;
+  }
+  #libraDisapear {
+    width: 100%;
+    margin-bottom: 4em;
+    font-size: 90%;
+  }
+  #scorpioDisapear {
+    width: 100%;
+    margin-bottom: 4em;
+    font-size: 90%;
+  }
+  #sagittariusDisapear {
+    width: 100%;
+    margin-bottom: 4em;
+    font-size: 90%;
+  }
+  #capricornDisapear {
+    width: 100%;
+    margin-bottom: 4em;
+    font-size: 90%;
+  }
+  #aquariusDisapear {
+    width: 100%;
+    margin-bottom: 4em;
+    font-size: 90%;
+  }
+  #piscesDisapear {
+    width: 100%;
+    margin-bottom: 4em;
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 650px) and (min-width: 550px) {
+  header {
+    height: 6em;
+  }
+  h1 {
+    font-size: 170%;
+  }
+  #divBusca {
+    width: 45%;
+  }
+  #lupa {
+    width: 20px;
+    height: 20px;
+    margin-left: -5em;
+  }
+
+  main {
+    padding: 3em;
+    gap: 0em;
+    margin-top: -1em;
+  }
+  footer {
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: -0.1em;
+    font-size: 130%;
+  }
+  #aries > img {
+    width: 70%;
+  }
+  #taurus > img {
+    width: 70%;
+  }
+  #gemini > img {
+    width: 70%;
+  }
+  #cancer > img {
+    width: 75%;
+  }
+  #leo > img {
+    width: 75%;
+  }
+  #virgo > img {
+    width: 75%;
+  }
+  #libra > img {
+    width: 75%;
+  }
+  #scorpio > img {
+    width: 75%;
+  }
+  #sagittarius > img {
+    width: 75%;
+  }
+  #capricorn > img {
+    width: 75%;
+  }
+  #aquarius > img {
+    width: 75%;
+  }
+  #pisces > img {
+    width: 75%;
+  }
+
+  #ariesDisapear {
+    width: 100%;
+    margin-bottom: 2em;
+    font-size: 85%;
+    padding: 1em;
+  }
+  #taurusDisapear {
+    width: 100%;
+    margin-bottom: 2em;
+    font-size: 85%;
+    padding: 1em;
+  }
+  #geminiDisapear {
+    width: 100%;
+    margin-bottom: 2em;
+    font-size: 85%;
+    padding: 1em;
+  }
+  #cancerDisapear {
+    width: 100%;
+    margin-bottom: 2em;
+    font-size: 85%;
+    padding: 1em;
+  }
+  #leoDisapear {
+    width: 100%;
+    margin-bottom: 2em;
+    font-size: 85%;
+    padding: 1em;
+  }
+  #virgoDisapear {
+    width: 100%;
+    margin-bottom: 2em;
+    font-size: 85%;
+    padding: 1em;
+  }
+  #libraDisapear {
+    width: 100%;
+    margin-bottom: 2em;
+    font-size: 85%;
+    padding: 1em;
+  }
+  #scorpioDisapear {
+    width: 100%;
+    margin-bottom: 2em;
+    font-size: 85%;
+    padding: 1em;
+  }
+  #sagittariusDisapear {
+    width: 100%;
+    margin-bottom: 2em;
+    font-size: 85%;
+    padding: 1em;
+  }
+  #capricornDisapear {
+    width: 100%;
+    margin-bottom: 2em;
+    font-size: 85%;
+    padding: 1em;
+  }
+  #aquariusDisapear {
+    width: 100%;
+    margin-bottom: 2em;
+    font-size: 85%;
+    padding: 1em;
+  }
+  #piscesDisapear {
+    width: 100%;
+    margin-bottom: 2em;
+    font-size: 85%;
+    padding: 1em;
+  }
+
+  #imagemAries {
+    margin-top: -6em;
+    width: 32%;
+  }
+
+  #imagemTaurus {
+    margin-top: -6em;
+    width: 32%;
+  }
+  #imagemGemini {
+    margin-top: -6em;
+    width: 32%;
+  }
+
+  #imagemCancer {
+    margin-top: -6em;
+    width: 32%;
+  }
+
+  #imagemLeo {
+    margin-top: -6em;
+    width: 32%;
+  }
+
+  #imagemVirgo {
+    margin-top: -6em;
+    width: 32%;
+  }
+
+  #imagemLibra {
+    margin-top: -6em;
+    width: 32%;
+  }
+
+  #imagemScorpio {
+    margin-top: -6em;
+    width: 32%;
+  }
+
+  #imagemSagittarius {
+    margin-top: -6em;
+    width: 32%;
+  }
+
+  #imagemCapricorn {
+    margin-top: -6em;
+    width: 32%;
+  }
+
+  #imagemAquarius {
+    margin-top: -6em;
+    width: 32%;
+  }
+
+  #imagemPisces {
+    margin-top: -6em;
+    width: 32%;
+  }
+}
+
+@media screen and (max-width: 550px) and (min-width: 420px) {
+  header {
+    height: 6em;
+  }
+  h1 {
+    font-size: 150%;
+  }
+  #divBusca {
+    width: 250px;
+  }
+  #lupa {
+    width: 20px;
+    height: 20px;
+    margin-left: -3em;
+  }
+
+  main {
+    gap: 1em;
+    padding: 2em;
+  }
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1px;
+    height: 150px;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 110%;
+  }
+  #rinoayk {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #ariesDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #taurusDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #geminiDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #cancerDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #leoDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #virgoDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #libraDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #scorpioDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #sagittariusDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #capricornDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #aquariusDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #piscesDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #imagemAries {
+    margin-top: -10em;
+    width: 30%;
+  }
+
+  #imagemTaurus {
+    margin-top: -10em;
+    width: 30%;
+  }
+  #imagemGemini {
+    margin-top: -10em;
+    width: 30%;
+  }
+
+  #imagemCancer {
+    margin-top: -10em;
+    width: 30%;
+  }
+
+  #imagemLeo {
+    margin-top: -10em;
+    width: 30%;
+  }
+
+  #imagemVirgo {
+    margin-top: -10em;
+    width: 30%;
+  }
+
+  #imagemLibra {
+    margin-top: -10em;
+    width: 30%;
+  }
+
+  #imagemScorpio {
+    margin-top: -10em;
+    width: 30%;
+  }
+
+  #imagemSagittarius {
+    margin-top: -10em;
+    width: 30%;
+  }
+  #imagemCapricorn {
+    margin-top: -10em;
+    width: 30%;
+  }
+  #imagemAquarius {
+    margin-top: -10em;
+    width: 30%;
+  }
+
+  #imagemPisces {
+    margin-top: -10em;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 420px) and (min-width: 250px) {
+  header {
+    height: 6em;
+  }
+  h1 {
+    font-size: 150%;
+  }
+  #divBusca {
+    width: 200px;
+  }
+  #lupa {
+    width: 20px;
+    height: 20px;
+    margin-left: -3em;
+  }
+
+  main {
+    gap: 1em;
+    margin: 0em;
+    padding: 1em;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    padding: 1em;
+    margin-top: -1em;
+    font-size: 99%;
+  }
+  #rinoayk {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #ariesDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #taurusDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #geminiDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #cancerDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #leoDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #virgoDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #libraDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #scorpioDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #sagittariusDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #capricornDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #aquariusDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #piscesDisapear {
+    width: 100%;
+    margin-bottom: 1em;
+    font-size: 80%;
+    padding: 1em;
+  }
+
+  #imagemAries {
+    display: none;
+  }
+
+  #imagemTaurus {
+    display: none;
+  }
+  #imagemGemini {
+    display: none;
+  }
+
+  #imagemCancer {
+    display: none;
+  }
+
+  #imagemLeo {
+    display: none;
+  }
+
+  #imagemVirgo {
+    display: none;
+  }
+
+  #imagemLibra {
+    display: none;
+  }
+
+  #imagemScorpio {
+    display: none;
+  }
+
+  #imagemSagittarius {
+    display: none;
+  }
+  #imagemCapricorn {
+    display: none;
+  }
+  #imagemAquarius {
+    display: none;
+  }
+
+  #imagemPisces {
+    display: none;
+  }
+}

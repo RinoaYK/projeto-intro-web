@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Projeto Lidia Yamamura</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap');
+    </style>
+</head>
+
+<body>
+    <div id="conteudo" onclick="resetButtonsConteudo()">
+        <header>
+            <a href="https://astrologialuzesombra.com.br/" target="_blank">
+                <h1>Signos do Zodíaco</h1>
+            </a>
+            <div id="divBusca">
+                <input type="text" id="busca-input" placeholder="Buscar..." onclick="event.stopPropagation()" />
+                <img src="./assets/lupa.png" id="lupa" alt="Busca" onclick="event.stopPropagation()" />
+            </div>
+        </header>
+        <main>
+            <div id="aries" class="titulo" onclick="event.stopPropagation()">
+                <img src="./assets/aries.png" alt="Áries">
+            </div>
+            <div id="ariesDisapear" class="hideAries" onclick="event.stopPropagation()">
+                <div class="aries">
+                    <img src="./assets/aries.png" alt="Áries" id="imagemAries">
+                    <aside class="asideAries">
+                        <img src="./assets/ariesSymbol.png" alt="Símbolo de Áries" id="ariesSymbol">
+                        <h1 class="h1Aries">Áries</h1>
+                        <p id="data">21 de março a 20 de abril</p>
+                        <ul id="listaAries">
+                            <li class="liAries">Elemento: Fogo</li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+
+            <div id="taurus" class="titulo" onclick="event.stopPropagation()">
+                <img src="./assets/taurus.png" alt="Touro">
+            </div>
+            <div id="taurusDisapear" class="hideTaurus" onclick="event.stopPropagation()">
+                <div class="taurus">
+                    <img src="./assets/taurus.png" alt="Touro" id="imagemTaurus">
+                    <aside class="asideTaurus">
+                        <img src="./assets/taurusSymbol.png" alt="Símbolo de Touro" id="taurusSymbol">
+                        <h1 class="h1Taurus">Touro</h1>
+                        <p id="data">21 de abril a 20 de maio</p>
+                        <ul id="listaTaurus">
+                            <li class="liTaurus">Elemento: Terra</li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+
+            <div id="gemini" class="titulo" onclick="event.stopPropagation()">
+                <img src="./assets/gemini.png" alt="Gêmeos">
+            </div>
+            <div id="geminiDisapear" class="hideGemini" onclick="event.stopPropagation()">
+                <div class="gemini">
+                    <img src="./assets/gemini.png" alt="Gêmeos" id="imagemGemini">
+                    <aside class="asideGemini">
+                        <img src="./assets/geminiSymbol.png" alt="Símbolo de Gêmeos" id="geminiSymbol">
+                        <h1 class="h1Gemini">Gêmeos</h1>
+                        <p id="data">21 de maio a 20 de junho</p>
+                        <ul id="listaGemini">
+                            <li class="liGemini">Elemento: Ar</li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+
+            <div id="cancer" class="titulo" onclick="event.stopPropagation()">
+                <img src="./assets/cancer.png" alt="Câncer">
+            </div>
+            <div id="cancerDisapear" class="hideCancer" onclick="event.stopPropagation()">
+                <div class="cancer">
+                    <img src="./assets/cancer.png" alt="Câncer" id="imagemCancer">
+                    <aside class="asideCancer">
+                        <img src="./assets/cancerSymbol.png" alt="Símbolo de Câncer" id="cancerSymbol">
+                        <h1 class="h1Cancer">Câncer</h1>
+                        <p id="data">21 de junho a 22 de julho</p>
+                        <ul id="listaCancer">
+                            <li class="liCancer">Elemento: Água</li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+
+            <div id="leo" class="titulo" onclick="event.stopPropagation()">
+                <img src="./assets/leo.png" alt="Leão">
+            </div>
+            <div id="leoDisapear" class="hideLeo" onclick="event.stopPropagation()">
+                <div class="leo">
+                    <img src="./assets/leo.png" alt="Leão" id="imagemLeo">
+                    <aside class="asideLeo">
+                        <img src="./assets/leoSymbol.png" alt="Símbolo de Leão" id="leoSymbol">
+                        <h1 class="h1Leo">Leão</h1>
+                        <p id="data">23 de julho a 22 de agosto</p>
+                        <ul id="listaLeo">
+                            <li class="liLeo">Elemento: Fogo</li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+
+            <div id="virgo" class="titulo" onclick="event.stopPropagation()">
+                <img src="./assets/virgo.png" alt="Virgem">
+            </div>
+            <div id="virgoDisapear" class="hideVirgo" onclick="event.stopPropagation()">
+                <div class="virgo">
+                    <img src="./assets/virgo.png" alt="Virgem" id="imagemVirgo">
+                    <aside class="asideVirgo">
+                        <img src="./assets/virgoSymbol.png" alt="Símbolo de Virgem" id="virgoSymbol">
+                        <h1 class="h1Virgo">Virgem</h1>
+                        <p id="data">23 de agosto a 22 de setembro</p>
+                        <ul id="listaVirgo">
+                            <li class="liVirgo">Elemento: Terra</li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+
+            <div id="libra" class="titulo" onclick="event.stopPropagation()">
+                <img src="./assets/libra.png" alt="Libra">
+            </div>
+            <div id="libraDisapear" class="hideLibra" onclick="event.stopPropagation()">
+                <div class="libra">
+                    <img src="./assets/libra.png" alt="Libra" id="imagemLibra">
+                    <aside class="asideLibra">
+                        <img src="./assets/libraSymbol.png" alt="Símbolo de Libra" id="libraSymbol">
+                        <h1 class="h1Libra">Libra</h1>
+                        <p id="data">23 de setembro a 22 de outubro</p>
+                        <ul id="listaLibra">
+                            <li class="liLibra">Elemento: Ar</li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+
+            <div id="scorpio" class="titulo" onclick="event.stopPropagation()">
+                <img src="./assets/scorpio.png" alt="Escorpião">
+            </div>
+            <div id="scorpioDisapear" class="hideScorpio" onclick="event.stopPropagation()">
+                <div class="scorpio">
+                    <img src="./assets/scorpio.png" alt="Escorpião" id="imagemScorpio">
+                    <aside class="asideScorpio">
+                        <img src="./assets/scorpioSymbol.png" alt="Símbolo de Escorpião" id="scorpioSymbol">
+                        <h1 class="h1Scorpio">Escorpião</h1>
+                        <p id="data">23 de outubro a 21 de novembro</p>
+                        <ul id="listaScorpio">
+                            <li class="liScorpio">Elemento: Água</li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+
+            <div id="sagittarius" class="titulo" onclick="event.stopPropagation()">
+                <img src="./assets/sagittarius.png" alt="Sagitário">
+            </div>
+            <div id="sagittariusDisapear" class="hideSagittarius" onclick="event.stopPropagation()">
+                <div class="sagittarius">
+                    <img src="./assets/sagittarius.png" alt="Sagitário" id="imagemSagittarius">
+                    <aside class="asideSagittarius">
+                        <img src="./assets/sagittariusSymbol.png" alt="Símbolo de Sagitário" id="sagittariusSymbol">
+                        <h1 class="h1Sagittarius">Sagitário</h1>
+                        <p id="data">22 de novembro a 21 de dezembro</p>
+                        <ul id="listaSagittarius">
+                            <li class="liSagittarius">Elemento: Fogo</li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+
+            <div id="capricorn" class="titulo" onclick="event.stopPropagation()">
+                <img src="./assets/capricorn.png" alt="Capricórnio">
+            </div>
+            <div id="capricornDisapear" class="hideCapricorn" onclick="event.stopPropagation()">
+                <div class="capricorn">
+                    <img src="./assets/capricorn.png" alt="Capricórnio" id="imagemCapricorn">
+                    <aside class="asideCapricorn">
+                        <img src="./assets/capricornSymbol.png" alt="Símbolo de Capricórnio" id="capricornSymbol">
+                        <h1 class="h1Capricorn">Capricórnio</h1>
+                        <p id="data">22 de dezembro a 20 de janeiro</p>
+                        <ul id="listaCapricorn">
+                            <li class="liCapricorn">Elemento: Terra</li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+
+            <div id="aquarius" class="titulo" onclick="event.stopPropagation()">
+                <img src="./assets/aquarius.png" alt="Aquário">
+            </div>
+            <div id="aquariusDisapear" class="hideAquarius" onclick="event.stopPropagation()">
+                <div class="aquarius">
+                    <img src="./assets/aquarius.png" alt="Aquário" id="imagemAquarius">
+                    <aside class="asideAquarius">
+                        <img src="./assets/aquariusSymbol.png" alt="Símbolo de Aquário" id="aquariusSymbol">
+                        <h1 class="h1Aquarius">Aquário</h1>
+                        <p id="data">21 de janeiro a 19 de fevereiro</p>
+                        <ul id="listaAquarius">
+                            <li class="liAquarius">Elemento: Ar</li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+
+            <div id="pisces" class="titulo" onclick="event.stopPropagation()">
+                <img src="./assets/pisces.png" alt="Peixes">
+            </div>
+            <div id="piscesDisapear" class="hidePisces" onclick="event.stopPropagation()">
+                <div class="pisces">
+                    <img src="./assets/pisces.png" alt="Peixes" id="imagemPisces">
+                    <aside class="asidePisces">
+                        <img src="./assets/piscesSymbol.png" alt="Símbolo de Peixes" id="piscesSymbol">
+                        <h1 class="h1Pisces">Peixes</h1>
+                        <p id="data">19 de fevereiro a 20 de março</p>
+                        <ul id="listaPisces">
+                            <li class="liPisces">Elemento: Água</li>
+                        </ul>
+                    </aside>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="labenu">
+                <div id="linkLabenu">
+                    <a href="https://www.labenu.com.br/" target="_blank"><img src="./assets/labenu.png"
+                            alt="Icone Labenu" id="iconeLabenu"></a>
+                </div>
+                <div id="pLabenu" class="pLabenuHide">
+                    <p>Projeto da Labenu</p>
+                </div>
+            </div>
+            <div id="rinoayk">
+                <a href="https://www.linkedin.com/in/lidia-yamamura-88b606119/" target="_blank"><img
+                        src="./assets/linkedin.png" alt="Linkedin"></a>
+
+                <a href="https://github.com/RinoaYK" target="_blank"><img src="./assets/github_invert.png"
+                        alt="GitHub"></a>
+
+                <a href="https://www.instagram.com/rinoayk/" target="_blank"><img src="./assets/./instagram.png"
+                        alt="Intagram"></a>
+
+                <a href="https://youtu.be/bn5Eq5p3-5g" target="_blank"><img src="./assets/youtube.png"
+                        alt="YouTube"></a>
+
+                <a href="https://www.deviantart.com/rinoayk" target="_blank"><img src="./assets/deviantart.png"
+                        alt="Deviantart"></a>
+                <a href="https://www.deviantart.com/rinoayk" target="_blank">Lidia Yamamura</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
