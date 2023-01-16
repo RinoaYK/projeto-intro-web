@@ -22,7 +22,7 @@ Foi criada uma página estática, depois estilizada, e por fim, dinâmica e resp
 Tem um sistema de busca, que recebe um texto pode ser escrito em letra MAIÚSCULA ou minúscula, ou os dois tIPoS.
 Procura por nomes/títulos, modalidade, elemento ou palavra-chave do signo que correspondam a este texto.
 
-[Exemplo](https://user-images.githubusercontent.com/11279432/180304632-97d6705d-100c-4272-8255-8aae19813700.mov)
+[Exemplo](https://github.com/RinoaYK/projeto-intro-web/blob/main/zodiaSite-LidiaY.gif)
 
 
 
