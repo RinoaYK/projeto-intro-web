@@ -1,0 +1,47 @@
+nome:
+idade aproximada:
+cor:
+tipo:
+comidas favoritas:
+
+nome: "Raito"
+idade aproximada: 15
+cor: marrom claro
+tipo: capivara
+comidas favoritas: florzinhas, chocolate, pipoca
+
+nome: Rimuru
+idade aproximada: 3 
+cor: azul
+tipo: polvo
+comidas favoritas: 
+
+nome: Shumi
+idade aproximada: 4
+cor: rosa
+tipo: polvo
+comidas favoritas: ?
+
+nome: Kabocha
+idade aproximada: 15
+cor: laranja
+tipo: polvo
+comidas favoritas: chá amargo, café sem açucar, batidas geladas
+
+nome: Chibi
+idade aproximada: 1
+cor: azul
+tipo: polvo
+comidas favoritas: bebidas docinhas
+
+nome: Himawari
+idade aproximada: 1
+cor: amarelo
+tipo: polvo
+comidas favoritas: sorvete céu azul
+
+nome: Tako-chan
+idade aproximada: 26
+cor: marrom
+tipo: polvo
+comidas favoritas: nenhuma q um humano conheceria.
