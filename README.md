@@ -1,7 +1,7 @@
 #  - Lidia Yamamura - 
 ### Veja o site:
 [**Signos do Zodíaco**](
-https://rinoayk.github.io/projeto-intro-web/)
+https://projeto-intro-web-lidia-yamamura.vercel.app/)
    
 ## Projeto de Introdução ao desenvolvimento web da Labenu
 <details>
