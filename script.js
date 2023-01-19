@@ -377,28 +377,9 @@ const verificaHide = () => {
   }
 };
 
-//função para buscar se clicar em "lupa".
-button.addEventListener("click", function (event) {
-  buscar(event);
-  verificaHide();
-});
-
-//função para buscar se apertar "enter".
-input.addEventListener("keypress", function (event) {
-  // console.log(event)
-  if (event.code === "Enter") {
-    buscar(event);
-    verificaHide();
-  }  
-  if (event.code === "NumpadEnter") {
-    buscar(event);
-    verificaHide();
-  }    
-});
-
 //função para buscar os itens.
-function buscar(event) {
-  event.preventDefault();
+function buscar(event) { 
+  event.preventDefault(); 
   resetButtons(event);
 
   const findString = (string) => {
@@ -460,6 +441,21 @@ function buscar(event) {
   findString(input.value);
   input.value = "";
 }
+
+//função para buscar se clicar em "lupa".
+button.addEventListener("click", function (event) {  
+  buscar(event);
+  verificaHide();
+});
+
+//função para buscar se apertar "enter".
+input.addEventListener("keypress", function (event) {  
+  // console.log(event)
+  if (event.key === "Enter" || event.key === "NumpadEnter") {    
+    buscar(event);
+    verificaHide();
+}
+});
 
 //acesso ícone Labenu
 const labenu = document.getElementById("linkLabenu");
