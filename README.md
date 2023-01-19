@@ -1,7 +1,6 @@
 #  - Lidia Yamamura - 
 ### Veja o site:
-[**Signos do Zodíaco**](
-https://projeto-intro-web-lidia-yamamura.vercel.app/)
+[**Signos do Zodíaco**](https://projeto-intro-web-lidia-yamamura.vercel.app/)
    
 ## Projeto de Introdução ao desenvolvimento web da Labenu
 <details>
@@ -23,9 +22,12 @@ https://projeto-intro-web-lidia-yamamura.vercel.app/)
 ## Signos do Zodíaco :star2:
 
 A página consiste em um HTML, ligado a um arquivos CSS e um arquivo JS. 
+
 Foi criada uma página estática, depois estilizada, e por fim, dinâmica e responsiva. A página contém ícones que representam os signos do zodíaco que você pode clicar em cima para ter mais informações.
+
 Tem um sistema de busca, que recebe um texto pode ser escrito em letra MAIÚSCULA ou minúscula, ou os dois tIPoS.
 Procura por nomes/títulos, modalidade, elemento ou palavra-chave do signo que correspondam a este texto.
+A  busca pode ser feita apertando a tecla "enter" ou apertando no botão lupa ao lado do campo de busca.
 
 ![](https://github.com/RinoaYK/projeto-intro-web/blob/main/zodiaSite-LidiaY.gif)
 
